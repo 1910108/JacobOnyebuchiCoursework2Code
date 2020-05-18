@@ -1,4 +1,4 @@
-<!--This page is the file uploading system-->
+<!--This page is for the file uploading system-->
 <?php include 'filesFunction.php';?>
 <?php include 'functions.php';?>
 <!DOCTYPE html>

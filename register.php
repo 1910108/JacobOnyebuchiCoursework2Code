@@ -1,3 +1,4 @@
+<!--Register page-->
 <?php include('functions.php') ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,9 +18,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
+<!--Styling the register form-->
 <body class="candidate-login-body">
 <div class="container">
     <form action="register.php" class="form-signin" role = "form" method="post" accept-charset="utf-8">
+        <!--Display error by form input validation-->
 	<?php echo display_error(); ?>
         <div class="login-wrap">
             <div class="form-group">
@@ -46,6 +49,7 @@
             <button class="btn btn-lg btn-login btn-block" name="register_btn" type="submit" title="Click Here to Register" data-toggle = "tooltip">
                 Register
             </button>
+            <!--Login if already registered-->
             <div class="registration">
                 Already Registered?
                 <a class="" href="login.php">
